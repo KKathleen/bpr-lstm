@@ -24,10 +24,10 @@ epoches = 500
 no_cuda = False
 seed = 1
 weight_decay = 0.1
-sing_train_path = 'new_data/sing_30_days'
-sing_test_path = 'new_data/sing_test_7_days'
-listen_path = 'new_data/listen_30_days'
-midi_path  = 'new_data/midi.out'
+sing_train_path = '../../new_data/sing_30_days'
+sing_test_path = '../../new_data/sing_test_7_days'
+listen_path = '../../new_data/listen_30_days'
+midi_path  = '../../new_data/midi.out'
 
 
 data_loader = data.Data(sing_train_path, sing_test_path, listen_path, batch_size)
